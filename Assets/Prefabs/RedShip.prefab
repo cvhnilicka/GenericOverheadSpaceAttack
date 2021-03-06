@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5709662659275907409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 354729305497386147, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7704590072661378372, guid: 6a48f8215a2024fc9865d5c2fb71842a,
+        type: 3}
+    - target: {fileID: 354729305497386147, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194361, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729305840194366, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_Name
+      value: RedShip
+      objectReference: {fileID: 0}
+    - target: {fileID: 354729306484602468, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -499527129711083331, guid: 6a48f8215a2024fc9865d5c2fb71842a,
+        type: 3}
+    - target: {fileID: 354729306484602468, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686231861397691867, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a79b3a2488fc24d98b9ec26c3927a2e9, type: 2}
+    - target: {fileID: 6384267948902290885, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 1510160111569379608, guid: 6a48f8215a2024fc9865d5c2fb71842a,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabd1dd4d962649a3a6d69310eeebd1e, type: 3}
