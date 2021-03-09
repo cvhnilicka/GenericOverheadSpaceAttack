@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
         myShipsBody = GetComponent<Rigidbody2D>();
         GetShips();
 
-
     }
 
     void GetShips()
@@ -28,7 +27,8 @@ public class PlayerController : MonoBehaviour
             {
                 switch(ship.GetShipType())
                 {
-                    case ShipController.ShipType.BLUESHIP: blueShip = ship;
+                    case ShipController.ShipType.BLUESHIP:
+                        blueShip = ship;
                         break;
                     case ShipController.ShipType.REDSHIP:
                         redShip = ship;
@@ -45,7 +45,24 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ShipAcivationControl();
         Fly();
+    }
+
+    void ShipAcivationControl()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            purpleShip.ChangeActiveStatus();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            blueShip.ChangeActiveStatus();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            redShip.ChangeActiveStatus();
+        }
     }
 
 

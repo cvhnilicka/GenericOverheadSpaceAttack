@@ -16,7 +16,12 @@ PrefabInstance:
     - target: {fileID: 2469023627422424691, guid: e7bc3a7f4d71b4648a5d4d1cc03fbfab,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: PurpleEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2469023627422424691, guid: e7bc3a7f4d71b4648a5d4d1cc03fbfab,
+        type: 3}
+      propertyPath: m_TagString
+      value: Purple
       objectReference: {fileID: 0}
     - target: {fileID: 3103679428921323430, guid: e7bc3a7f4d71b4648a5d4d1cc03fbfab,
         type: 3}
