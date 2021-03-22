@@ -46,7 +46,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         ShipAcivationControl();
+        Rotation();
         Fly();
+
     }
 
     void ShipAcivationControl()
@@ -72,5 +74,22 @@ public class PlayerController : MonoBehaviour
         float vthrow = Input.GetAxis("Vertical");
         Vector2 playerVelocity = new Vector2(hthrow * flySpeed, vthrow * flySpeed);
         myShipsBody.velocity = playerVelocity;
+    }
+
+    void Rotation()
+    {
+        // This seems toooooo touchy. I need to work on a different rotation solution
+
+
+
+
+        // convert mouse position into world coordinates
+        Vector2 mouseScreenPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        // get direction you want to point at
+        Vector2 direction = (mouseScreenPosition - (Vector2)transform.position).normalized;
+
+        // set vector of transform directly
+        transform.up = direction;
     }
 }
