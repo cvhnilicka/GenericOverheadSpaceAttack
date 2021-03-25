@@ -15,6 +15,23 @@ public class ParticleSystemController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //ParentRotation();
+        //ParentVel();
+    }
+
+    void ParentVel()
+    {
+        var main = particleSystem.main;
+        main.startSpeed = transform.parent.gameObject.GetComponent<Rigidbody2D>().velocity.y + main.startSpeed.constant;
+        //main.
+        //particleSystem.inheritVelocity.enabled = true;
+    }
+
+    void ParentRotation()
+    {
+        var main = particleSystem.main;
+        main.startRotationZ = transform.parent.localRotation.z;
+        //main.startRotation = transform.parent.rotation.z;
         
     }
 

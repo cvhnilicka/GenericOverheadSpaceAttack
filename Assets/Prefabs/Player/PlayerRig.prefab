@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flySpeed: 10
+  thrust: 32
 --- !u!50 &1987871885716381705
 Rigidbody2D:
   serializedVersion: 4
@@ -76,6 +77,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1987871885716381704}
     m_Modifications:
+    - target: {fileID: 3623367430599248437, guid: ea070c40a2cd84c3182c20763fe9de8f,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 10.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623367430599248437, guid: ea070c40a2cd84c3182c20763fe9de8f,
+        type: 3}
+      propertyPath: InheritVelocityModule.m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623367430599248437, guid: ea070c40a2cd84c3182c20763fe9de8f,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 6701807653495916274, guid: ea070c40a2cd84c3182c20763fe9de8f,
         type: 3}
       propertyPath: m_Controller

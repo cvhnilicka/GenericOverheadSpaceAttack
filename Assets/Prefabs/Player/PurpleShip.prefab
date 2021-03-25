@@ -101,6 +101,11 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 90838e64a4817468098217880ba119b4, type: 2}
     - target: {fileID: 6384267948902290885, guid: fabd1dd4d962649a3a6d69310eeebd1e,
         type: 3}
+      propertyPath: InheritVelocityModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6384267948902290885, guid: fabd1dd4d962649a3a6d69310eeebd1e,
+        type: 3}
       propertyPath: UVModule.sprites.Array.data[0].sprite
       value: 
       objectReference: {fileID: 1643773771513215408, guid: 6a48f8215a2024fc9865d5c2fb71842a,

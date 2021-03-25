@@ -13841,58 +13841,28 @@ PrefabInstance:
     - target: {fileID: 7058443689963973366, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: field of view
-      value: 60
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7058443689963973366, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: far clip plane
-      value: 1000
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 7058443689963973366, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: near clip plane
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7058443689963973366, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: orthographic size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7058443690430420162, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_XDamping
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7058443690430420162, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_DeadZoneWidth
-      value: 0.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 7058443690430420162, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_LookaheadTime
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7058443690430420162, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_SoftZoneWidth
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7058443690430420162, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_DeadZoneHeight
-      value: 0.59
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7058443690480095760, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 836907172}
-    - target: {fileID: 7058443690480095761, guid: 9b3e3d99b99604df887b6e331b72d492,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7058443690480095763, guid: 9b3e3d99b99604df887b6e331b72d492,
         type: 3}
       propertyPath: m_BoundingShape2D
